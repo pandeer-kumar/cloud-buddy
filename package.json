@@ -1,0 +1,16 @@
+{
+    "name": "cloud-buddy",
+    "version": "1.0.0",
+    "description": "react app to provide easy way to deal with day to day cloud related things for their apps",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://pandeer-kumar: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@github.com/pandeer-kumar/cloud-buddy.git"
+    },
+    "author": "Abhishek Kumar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pandeer-kumar/cloud-buddy/issues"
+    },
+    "homepage": "https://github.com/pandeer-kumar/cloud-buddy#readme"
+}
