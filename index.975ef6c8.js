@@ -28834,11 +28834,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function App() {
+    console.log("its working");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: "its working"
     }, void 0, false, {
         fileName: "src/components/App.js",
-        lineNumber: 2,
+        lineNumber: 3,
         columnNumber: 12
     }, this);
 }
