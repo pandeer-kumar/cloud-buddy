@@ -19,7 +19,7 @@
     "bugs": {
         "url": "https://github.com/pandeer-kumar/cloud-buddy/issues"
     },
-    "homepage": "https://github.com/pandeer-kumar/cloud-buddy#readme",
+    "homepage": "https://pandeer-kumar.github.io/cloud-buddy",
     "dependencies": {
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
