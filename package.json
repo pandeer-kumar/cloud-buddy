@@ -4,7 +4,9 @@
     "description": "react app to provide easy way to deal with day to day cloud related things for their apps",
     "scripts": {
         "format": "prettier --write \"src/**/*.{js,jsx}\"",
-        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+        "dev": "parcel src/index.html",
+        "build": "parcel build --no-source-maps src/index.html"
     },
     "repository": {
         "type": "git",
@@ -35,6 +37,7 @@
         "eslint-plugin-react": "^7.30.0",
         "eslint-plugin-react-hooks": "^4.5.0",
         "parcel": "^2.6.0",
-        "prettier": "^2.6.2"
+        "prettier": "^2.6.2",
+        "process": "^0.11.10"
     }
 }
