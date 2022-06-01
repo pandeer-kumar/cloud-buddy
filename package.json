@@ -2,7 +2,10 @@
     "name": "cloud-buddy",
     "version": "1.0.0",
     "description": "react app to provide easy way to deal with day to day cloud related things for their apps",
-    "scripts": {},
+    "scripts": {
+        "format": "prettier --write \"src/**/*.{js,jsx}\"",
+        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://pandeer-kumar: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@github.com/pandeer-kumar/cloud-buddy.git"
@@ -12,5 +15,26 @@
     "bugs": {
         "url": "https://github.com/pandeer-kumar/cloud-buddy/issues"
     },
-    "homepage": "https://github.com/pandeer-kumar/cloud-buddy#readme"
+    "homepage": "https://github.com/pandeer-kumar/cloud-buddy#readme",
+    "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-router-dom": "^6.3.0"
+    },
+    "browserslist": [
+        "last 2 Chrome versions",
+        "last 2 Firefox versions",
+        "last 2 Edge versions",
+        "last 2 Safari versions"
+    ],
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.30.0",
+        "eslint-plugin-react-hooks": "^4.5.0",
+        "parcel": "^2.6.0",
+        "prettier": "^2.6.2"
+    }
 }
