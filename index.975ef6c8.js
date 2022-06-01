@@ -2882,7 +2882,6 @@ var _appDefault = parcelHelpers.interopDefault(_app);
 var _indexCss = require("./styles/index.css");
 (0, _clientDefault.default).createRoot(document.getElementById("root")).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-        basename: undefined,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
             fileName: "src/index.js",
             lineNumber: 11,
@@ -28717,7 +28716,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function App() {
     console.log("its working");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "its working"
+        children: "its working, you know what"
     }, void 0, false, {
         fileName: "src/components/App.js",
         lineNumber: 3,
