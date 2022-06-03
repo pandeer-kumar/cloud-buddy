@@ -5,8 +5,8 @@
     "scripts": {
         "format": "prettier --write \"src/**/*.{js,jsx}\"",
         "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-        "dev": "parcel src/index.html",
-        "build": "parcel build --no-source-maps src/index.html",
+        "dev": "parcel index.html",
+        "build": "parcel build --no-source-maps --public-url https://pandeer-kumar.github.io/cloud-buddy index.html",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
@@ -20,6 +20,7 @@
         "url": "https://github.com/pandeer-kumar/cloud-buddy/issues"
     },
     "homepage": "https://pandeer-kumar.github.io/cloud-buddy",
+    "private": true,
     "dependencies": {
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
